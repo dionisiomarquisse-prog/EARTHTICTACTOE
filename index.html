@@ -23,10 +23,6 @@ body{
     background:#02101f;
 }
 
-/* =========================
-   BACKGROUND
-========================= */
-
 .screen{
     position:relative;
     width:100vw;
@@ -47,8 +43,6 @@ body{
     );
 }
 
-/* stars */
-
 .screen::before{
     content:"";
     position:absolute;
@@ -67,9 +61,6 @@ body{
     opacity:.6;
 }
 
-/* =========================
-   EARTH
-========================= */
 
 .earth{
 
@@ -97,7 +88,6 @@ body{
     animation:floatEarth 8s ease-in-out infinite;
 }
 
-/* continents */
 
 .earth::before{
 
@@ -123,9 +113,6 @@ body{
     15px 80px #35d96d;
 }
 
-/* =========================
-   MOON
-========================= */
 
 .moon{
 
@@ -172,10 +159,6 @@ body{
     55px 55px #909090,
     20px 70px #bcbcbc;
 }
-
-/* =========================
-   GAME
-========================= */
 
 .game{
 
@@ -245,9 +228,7 @@ h1 span{
 
     font-size:18px;
 }
-/* =========================
-   BOARD
-========================= */
+
 
 .board-wrap{
 
@@ -318,9 +299,6 @@ h1 span{
     0 0 20px rgba(0,210,255,.25);
 }
 
-/* =========================
-   X PLAYER
-========================= */
 
 .cell.x{
 
@@ -331,9 +309,6 @@ h1 span{
     0 0 25px rgba(72,255,145,.55);
 }
 
-/* =========================
-   O PLAYER
-========================= */
 
 .cell.o{
 
@@ -365,9 +340,6 @@ h1 span{
     0 0 45px rgba(0,180,255,.20);
 }
 
-/* =========================
-   BUTTON
-========================= */
 
 button{
 
@@ -403,9 +375,6 @@ button:hover{
     0 0 18px rgba(0,200,255,.35);
 }
 
-/* =========================
-   FOOTER
-========================= */
 
 .watermark{
 
@@ -423,9 +392,6 @@ button:hover{
 
     letter-spacing:2px;
 }
-
-/* =========================
-   ANIMATIONS
 ========================= */
 
 @keyframes floatEarth{
@@ -462,9 +428,6 @@ button:hover{
 
 }
 
-/* =========================
-   MOBILE
-========================= */
 
 @media(max-width:700px){
 
@@ -521,8 +484,9 @@ button:hover{
         <div class="badge">
             EARTH EDITION
         </div>
-          <audio id="bgMusic" autoplay loop>
-    <source src="Your Universe (Acoustic).mp3" type="audio/mpeg">
+        
+       <audio id="bgMusic" autoplay loop>
+    <source src="your-universe-acoustic.mp3" type="audio/mpeg">
 </audio>
 
         <h1>
